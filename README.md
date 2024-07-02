@@ -78,7 +78,7 @@ Function configuration  are available in function.json
 
 bindings have the following details 
 
-type is the name of binding
+type is the name of binding such as queueTrigger or httpTrigger
 direction can be in and out 
 name is used for bound data in the function 
 
@@ -248,6 +248,16 @@ Here Durable functions provides the flexible recurrence intervals , task lifetim
 
 
 Durable Functions extension handled this pattern with relatively simple code.
+
+https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-java
+
+Use the above link to create a java Function using vs code 
+
+You may need to run following command if you are not logged in as admin
+and running vs code with WSL extension .
+
+sudo npm install -g azure-functions-core-tools@4
+
 
 ----------------------------------------------------------------
 
